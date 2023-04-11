@@ -1,5 +1,5 @@
 .hero-section{
-    background: url(./mobile-Hero-bg.png);
+    background: url(../../public/mobile-Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -8,7 +8,7 @@
 .hero-section-title{
     font-family: 'changa one', cursive;
     letter-spacing: 3px;
-    margin-top: 8rem;
+    margin-top: 5rem;
     font-weight: 300;
     font-size: var(--size-sm);
     color: white;
@@ -17,7 +17,7 @@
     font-size: var(--size-xs);
 }
 .hero-card{
-    width: 100%;
+    width: 90%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 6%;
 }
