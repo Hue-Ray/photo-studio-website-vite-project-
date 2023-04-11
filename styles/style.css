@@ -1,0 +1,61 @@
+:root{
+    /* colors */
+    --clr-primary: #A73A2C;
+    --clr-secondary: #612118;
+
+    /* HEX value: background: rgba(167, 58, 44, 1);
+ */
+
+    /* sizes */
+    --size-xs: 16px;
+    --size-sm: 26px;
+    --size-md: 36px;
+    --size-lg: 46px;
+    --size-xl: 56px;
+    --size-2xl: 66px;
+    --size-3xl: 76px;
+    --size-4xl: 86px;
+}
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+img,
+picture,
+video,
+canvas,
+svg{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+button{
+    display: inline-block;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+}
+a{
+    text-decoration: none;
+    color: var(--clr-primary);
+}
+strong{
+    color: var(--clr-primary);
+}
+/* Scroll bar */
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-primary);
+    outline: 1px solid var(--clr-primary);
+  }
