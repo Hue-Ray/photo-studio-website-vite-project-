@@ -8,10 +8,16 @@
 .hero-section-title{
     font-family: 'changa one', cursive;
     letter-spacing: 3px;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     font-weight: 300;
-    font-size: var(--size-sm);
+    font-size: var(--size-md);
     color: white;
+}
+.hero-description{
+    color: rgba(255, 255, 255, 0.603);
+    font-weight: 100;
+    font-size: var(--size-xs);
+    padding: 0 10px;
 }
 .hero-section-btn{
     font-size: var(--size-xs);
