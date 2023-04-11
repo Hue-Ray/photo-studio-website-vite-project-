@@ -1,0 +1,17 @@
+.services{
+    text-align: center;
+}
+.services .heading{
+    font-family: 'changa one', cursive;
+    font-weight: 300;
+    font-size: var(--size-sm);
+}
+.services label{
+    font-size: var(--size-xs);
+    margin-top: 5rem;
+    color: rgba(0, 0, 0, 0.651);
+}
+.services .card{
+    width: fit-content;
+    margin: auto;
+}
