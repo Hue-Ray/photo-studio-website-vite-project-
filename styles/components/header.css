@@ -2,8 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    line-height: 50px;
-    padding: 10px;
+    line-height: auto;
     color: white;
 }
 nav{
@@ -18,7 +17,7 @@ header nav ul li{
     color: white;
 }
 header .site__title{
-    padding-left: 20px;
+    margin-left: 10px;
     font-size: 16px;
     width: auto;
 }

@@ -11,8 +11,9 @@
   </head>
   <body>
     <main>
-     <section class="hero-section">
-      <header>
+     <section id="home" class="hero-section">
+      <div id="header">
+        <header>
           <h3 class="site__title">Photo Studio</h3>
           <nav>
             <ul>
@@ -22,46 +23,51 @@
             </ul>
           </nav>
       </header>
-      <h1 class="hero-section-title">
-        <p>Your Memories<br> Matters</p>
-      </h1>
-      <h6 class="hero-description">
-        Be it an event, a birthday shoot, pre Weddings shoot,
-        baby pictures or passport, I am ever ready to capture
-        them so that you can re-live your memories at any time.
-      </h6>
-      <button class="btn hero-btn gap">Explore</button>
+      </div>
+      <div class="content m-container">
+        <h1 class="m-heading">
+          <p>Your Memories<br> Matters</p>
+        </h1>
+        <h6 class="m-description description">
+          Be it an event, a birthday shoot, pre Weddings shoot,
+          baby pictures or passport, I am ever ready to capture
+          them so that you can re-live your memories at any time.
+        </h6>
+        <a href="#gallery">
+          <button class="m-btn button">Explore</button>
+        </a>
+      </div>
      </section>
-     <section class="services gap">
-      <h3 class="heading">
+     <section id="services" class="services gap">
+      <h3 class="m-heading">
         Services
       </h3>
       <div class="services-card">
         <div class="card gap">
-          <label class="services-subtitle">
+          <label class="services-subtitle m-subtitle">
             Weddings
           </label>
           <img class="m-card-img" src="./services-w-img.png" alt="">
         </div>
         <div class="card gap">
-          <label class="services-subtitle">
+          <label class="services-subtitle m-subtitle">
             Birthdays
           </label>
           <img class="d-card-img" src="./services-b-img.png" alt="">
         </div>
         <div class="card gap">
-          <label class="services-subtitle">
+          <label class="services-subtitle m-subtitle">
             Occasions
           </label>
           <img class="m-card-img" src="./services-o-img.png" alt="">
         </div>
       </div>
-      <button class="btn services-btn">Reach Out</button>
+      <button class="m-btn services-btn">Reach Out</button>
      </section>
-     <section class="gallery section">
-      <p class="heading">Gallery</p>
+     <section id="gallery" class="gallery section">
+      <p class="heading m-heading">Gallery</p>
       <div class="wedding-gallery-card">
-        <label for="" class="title">Weddings</label>
+        <p class="m-subtitle">Weddings</p>
         <img src="./w1.jpg" alt="" class="image gap">
         <img src="./w2.png" alt="" class="image gap">
         <img src="./w3.jpg" alt="" class="image gap">
@@ -69,6 +75,24 @@
         <img src="" alt="" class="image gap">
         <img src="" alt="" class="image gap">
       </div>
+     </section>
+     <section id="contact">
+      <div class="contact-container m-container">
+        <h1 class="contact-title m-heading">Contact</h1>
+        <p class="desc m-description">
+          Would you like to ask me a question,
+           book a service or say ‘Hi’ I  am ever
+            ready to respond to your needs, 
+            be it an event, pre-wedding pictures,
+             birthday pictures or passport photograph.
+        </p>
+        <a href=""><button class="m-btn gap">Reach Out</button></a>
+      </div>
+     </section>
+     <section id="footer">
+      <p class="m-container m-description">
+        Photo-Studio copyright@ <a href="#">Hue Ray</a>
+      </p>
      </section>
     </main>
     <script type="module" src="./src/main.js"></script>

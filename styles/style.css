@@ -2,19 +2,25 @@
     /* colors */
     --clr-primary: #A73A2C;
     --clr-secondary: #612118;
+    --clr-heading-light: white;
+    --clr-heading-dark: black;
+    --clr-subtitle: rgba(0, 0, 0, 0.829);
+    --clr-subtitle-light: white;
+    --clr-desc: rgba(0, 0, 0, 0.63);
+    --clr-desc-light: white;
 
     /* HEX value: background: rgba(167, 58, 44, 1);
  */
 
     /* sizes */
-    --size-xs: 16px;
-    --size-sm: 26px;
-    --size-md: 36px;
-    --size-lg: 46px;
-    --size-xl: 56px;
-    --size-2xl: 66px;
-    --size-3xl: 76px;
-    --size-4xl: 86px;
+    --size-xs: 10px;
+    --size-sm: 16px;
+    --size-md: 24px;
+    --size-lg: 32px;
+    --size-xl: 36px;
+    --size-2xl: 40px;
+    --size-3xl: 48px;
+    --size-4xl: 64px;
 }
 *{
     margin: 0;

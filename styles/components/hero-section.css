@@ -5,25 +5,9 @@
     text-align: center;
     height: 80vh;
 }
-.hero-section-title{
-    font-family: 'changa one', cursive;
+.hero-section .content{
     letter-spacing: 3px;
-    margin-top: 2.5rem;
-    font-weight: 300;
-    font-size: var(--size-md);
+    margin-top: 30%;
     color: white;
 }
-.hero-description{
-    color: rgba(255, 255, 255, 0.603);
-    font-weight: 100;
-    font-size: var(--size-xs);
-    padding: 0 10px;
-}
-.hero-section-btn{
-    font-size: var(--size-xs);
-}
-.hero-card{
-    width: 90%;
-    margin: auto;
-    margin-top: 20%;
-}
+
