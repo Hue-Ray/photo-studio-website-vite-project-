@@ -1,7 +1,15 @@
 .gallery{
     background: black;
     color: white;
+    padding: 10px 0;
 }
 .gallery .content .card .subtitle{
     margin-bottom: -20px;
+}
+.gallery .content hr{
+    border: 0.03rem solid rgba(153, 153, 153, 0.76);
+    font-size: 8px;
+}
+.gallery .content .btn{
+    margin-top: 10px;
 }
