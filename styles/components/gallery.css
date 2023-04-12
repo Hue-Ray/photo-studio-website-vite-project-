@@ -2,13 +2,6 @@
     background: black;
     color: white;
 }
-.card-subtitle{
-    color: white;
-}
-.gallery img{
-    width: auto;
-    margin: 20px auto;
-}
-.wedding-gallary-card .title{
-    color: rgba(0, 0, 0, 0.411);
+.gallery .content .card .subtitle{
+    margin-bottom: -20px;
 }

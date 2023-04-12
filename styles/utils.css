@@ -1,32 +1,9 @@
-.container{
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px;
-}
+/* mobile styles */
 .m-container{
-    width: 100%;
+    width: fit-content;
     margin: auto;
     padding: 10px;
     text-align: center;
-}
-.section{
-    margin-top: 50px;
-}
-.gap{
-    margin-top: 20px;
-}
-.btn{
-    display: inline-block;
-    font-weight: 600;
-    text-decoration: none;
-    letter-spacing: -0.05em;
-    background-color: var(--clr-primary);
-    color: #f1f5f9;
-    padding: 0.5em 1em;
-    border-radius: 6px;
-    box-shadow: 0 10px 20px rgba(167, 58, 44, 1), 0 6px 6px rgba(167, 58, 44, 1),
-    0 0 100px -10px var(--clr-primary);
-    transition: transform 0.3s, box-shadow 0.3s;
 }
 .m-heading{
     font-size: var(--size-md);
@@ -40,7 +17,6 @@
     padding: 5px;
     font-weight: 200;
     text-align: center;
-    color: var(--clr-subtitle-light);
 }
 .m-description{
     font-size: var(--size-xs);
@@ -62,13 +38,40 @@
     0 0 100px -10px var(--clr-primary);
     transition: transform 0.3s, box-shadow 0.3s;
 }
+
+/* desktop styles */
+.d-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.d-btn{
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color: var(--clr-primary);
+    color: #f1f5f9;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(167, 58, 44, 1), 0 6px 6px rgba(167, 58, 44, 1),
+    0 0 100px -10px var(--clr-primary);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* general utils style */
+.section{
+    margin-top: 50px;
+}
+.gap{
+    margin-top: 20px;
+}
 .btn:hover{
     transform: translateY(-3px);
     box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
     0 10px 10px rgba(225, 29, 72, 0.22), 
     0 0 120px -10px var(--clr-primary);
 }
-
 .loading{
     filter: blur(40px) grayscale(100%);
 }
@@ -76,6 +79,8 @@
     filter: blur(0) grayscale(0);
     transition: 0.7s ease-in-out;
 }
+
+/* Media queries style */
 /* xs */
 @media (min-width: 475px){
     .container{
